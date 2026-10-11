@@ -1,0 +1,28 @@
+# ===== Keil 编译产物，不要上传 =====
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.iex
+*.htm
+*.lst
+*.map
+*.axf
+*.hex
+*.bin
+*.lnp
+*.sct
+*.dep
+*.bak
+
+# ===== Keil 个人调试配置，保留工程文件本身 =====
+*.uvguil.*
+*.uvguix.*
+*.uvoptx
+DebugConfig/
+JLinkLog.txt
+
+# ===== 系统/编辑器 =====
+.DS_Store
+Thumbs.db
